@@ -1,0 +1,16 @@
+.Arrow {
+    border: solid;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 8px;
+}
+
+.Arrow--up {
+    border-color: var(--valid);
+    transform: rotate(-135deg);
+}
+
+.Arrow--down {
+    border-color: var(--invalid);
+    transform: rotate(45deg);
+}

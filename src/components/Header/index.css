@@ -1,0 +1,11 @@
+.Header {
+    margin-top: 18px;
+}
+
+.Header__title {
+    margin: 26px 0;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--primary)
+}
